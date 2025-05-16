@@ -62,8 +62,7 @@ The dashboard is highly customizable through:
 
 ## 🚀 Deployment
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/health-dashboard)
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vitality-health-dashboard.vercel.app/)
 ## 🛠️ Tech Stack
 
 ### Core Technologies
