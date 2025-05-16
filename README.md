@@ -76,7 +76,6 @@ The Vitality Health Dashboard provides an intuitive interface for tracking vario
 - [ESLint](https://eslint.org/) - Code quality
 - [Prettier](https://prettier.io/) - Code formatting
 - [pnpm](https://pnpm.io/) - Fast package management
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
