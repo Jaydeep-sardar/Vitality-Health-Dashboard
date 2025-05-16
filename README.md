@@ -92,7 +92,7 @@ The dashboard is highly customizable through:
 <div align="center">
 
 ### Main Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](C:\Users\User\Downloads\health-dashboard\screenshots\dashboard.png)
 *The main dashboard showcasing health metrics, activity tracking, and wellness monitoring in a beautiful dark theme interface.*
 
 </div>
