@@ -77,16 +77,6 @@ The Vitality Health Dashboard provides an intuitive interface for tracking vario
 - [Prettier](https://prettier.io/) - Code formatting
 - [pnpm](https://pnpm.io/) - Fast package management
 
-## 📱 Screenshots
-
-<div align="center">
-
-### Main Dashboard
-![Dashboard](screenshots/dashboard.png)
-*The main dashboard showcasing health metrics, activity tracking, and wellness monitoring in a beautiful dark theme interface.*
-
-</div>
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
