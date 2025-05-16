@@ -82,7 +82,7 @@ The Vitality Health Dashboard provides an intuitive interface for tracking vario
 <div align="center">
 
 ### Main Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.jpg)
 *The main dashboard showcasing health metrics, activity tracking, and wellness monitoring in a beautiful dark theme interface.*
 
 </div>
