@@ -26,7 +26,6 @@ A beautiful, modern, and intuitive health tracking dashboard built with Next.js 
   - Daily achievements tracking
 
 - 💫 **Modern UI/UX**
-  - Responsive design for all devices
   - Beautiful animations with Framer Motion
   - Dark/Light theme support
   - Clean and intuitive interface
@@ -51,14 +50,6 @@ The Vitality Health Dashboard provides an intuitive interface for tracking vario
 - **Sleep Tracker**: Monitor your sleep patterns
 - **Fitness Routine**: Plan and track your workouts
 - **Mental Health**: Journal your thoughts and feelings
-
-## 🎨 Customization
-
-The dashboard is highly customizable through:
-
-- Tailwind CSS configuration (`tailwind.config.ts`)
-- Theme settings (`components/theme-provider.tsx`)
-- Component modifications in the `components` directory
 
 ## 🚀 Deployment
 
