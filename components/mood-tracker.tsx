@@ -41,20 +41,23 @@ export function MoodTracker() {
   }
 
   const renderDayContent = (day: Date) => {
-    if (!day) return null
-
     const dateKey = day.toISOString().split("T")[0]
     const mood = moodHistory[dateKey]
 
-    if (!mood) return null
-
     return (
-      <div className={`w-full h-full rounded-full ${getMoodColor(mood)} flex items-center justify-center`}>
-        {mood === "happy" && <Smile className="h-3 w-3" />}
-        {mood === "neutral" && <Meh className="h-3 w-3" />}
-        {mood === "sad" && <Frown className="h-3 w-3" />}
-        {mood === "angry" && <Angry className="h-3 w-3" />}
-        {mood === "love" && <Heart className="h-3 w-3" />}
+      <div className="relative w-full h-full">
+        <div className="absolute inset-0 flex items-center justify-center">
+          {day.getDate()}
+        </div>
+        {mood && (
+          <div className={`absolute inset-0 flex items-center justify-center ${getMoodColor(mood)} rounded-full opacity-40`}>
+            {mood === "happy" && <Smile className="h-4 w-4" />}
+            {mood === "neutral" && <Meh className="h-4 w-4" />}
+            {mood === "sad" && <Frown className="h-4 w-4" />}
+            {mood === "angry" && <Angry className="h-4 w-4" />}
+            {mood === "love" && <Heart className="h-4 w-4" />}
+          </div>
+        )}
       </div>
     )
   }
@@ -142,14 +145,7 @@ export function MoodTracker() {
                 onSelect={(date) => date && setDate(date)}
                 className="rounded-md border"
                 components={{
-                  DayContent: ({ day }) => (
-                    <div className="h-9 w-9 p-0 font-normal aria-selected:opacity-100">
-                      <div className="h-7 w-7 absolute top-1 left-1 flex items-center justify-center">
-                        {day ? day.getDate() : ""}
-                      </div>
-                      {day ? renderDayContent(day) : null}
-                    </div>
-                  ),
+                  DayContent: ({ date: dayDate }) => renderDayContent(dayDate)
                 }}
               />
             </div>
